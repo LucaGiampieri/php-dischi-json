@@ -1,0 +1,67 @@
+/* Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Generics */
+
+body {
+  background-color: #68707b;
+  font-family: "Inter", sans-serif;
+}
+
+/* Header */
+
+header {
+  background-color: #1c2027;
+  display: flex;
+
+  align-items: center;
+  padding: 0.5rem;
+}
+
+header img {
+  height: 41px;
+}
+
+header h1 {
+  font-size: 3rem;
+  color: darkgray;
+}
+
+/* Main */
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 2rem;
+  justify-content: center;
+}
+
+.card {
+  border-radius: 10px;
+  flex-basis: calc((100% - 8rem) / 4);
+  padding: 1rem;
+  background-color: #1c2027;
+  text-align: center;
+  color: darkgray;
+}
+
+.card img {
+  width: 100%;
+  border: 1px solid white;
+}
+
+.card h2 {
+  color: white;
+}
+
+.card p {
+  font-style: italic;
+}
